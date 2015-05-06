@@ -1,0 +1,7 @@
+.justified-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+textarea {
+    resize: vertical;
+}
