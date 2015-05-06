@@ -170,6 +170,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 @media(min-width:768px) {

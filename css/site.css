@@ -5,3 +5,8 @@
 textarea {
     resize: vertical;
 }
+
+img.max {
+    max-width: 175px;
+    max-height: 175px;
+}
