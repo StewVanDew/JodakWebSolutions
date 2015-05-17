@@ -15,10 +15,10 @@ img.max {
     padding-top: 10px;
 }
 
-#services {
+#services, #contact {
     background-color: #191919;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* WebKit */
-    -moz-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* Firefox */
-    box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* Standard */
+    -webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .15); /* WebKit */
+    -moz-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .15); /* Firefox */
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, .15); /* Standard */
 }
