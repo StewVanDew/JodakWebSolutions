@@ -17,4 +17,8 @@ img.max {
 
 #services {
     background-color: #191919;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* WebKit */
+    -moz-box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* Firefox */
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, .05); /* Standard */
 }
