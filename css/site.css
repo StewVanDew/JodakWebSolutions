@@ -10,3 +10,11 @@ img.max {
     max-width: 175px;
     max-height: 175px;
 }
+
+#showcase > div > div > a > h3 {
+    padding-top: 10px;
+}
+
+#services {
+    background-color: #191919;
+}
