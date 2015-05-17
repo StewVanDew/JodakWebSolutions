@@ -20,7 +20,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 menu,
 nav,
@@ -1153,7 +1152,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #ed585a;
+    border-top: 1px solid #337ab7;
 }
 .sr-only {
   position: absolute;
