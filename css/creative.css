@@ -476,3 +476,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+.copyright{
+    padding-top: 35px;
+}
+
+.title-brand{
+    color:#00B9EB;
+}
