@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4737406" vertical-offset="901" max-vertical-offset="5236">
-              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.63772774" vertical-offset="1411" max-vertical-offset="5049">
+              <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -417,12 +417,12 @@
       <workItem from="1431888645634" duration="815000" />
       <workItem from="1431896957756" duration="22000" />
       <workItem from="1431925101196" duration="2349000" />
-      <workItem from="1431931472419" duration="2127000" />
+      <workItem from="1431931472419" duration="3103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5313000" />
+    <option name="totallyTimeSpent" value="6289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
@@ -511,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4737406" vertical-offset="901" max-vertical-offset="5236">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.63772774" vertical-offset="1411" max-vertical-offset="5049">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
           <folding />
         </state>
       </provider>
