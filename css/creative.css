@@ -403,9 +403,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    border-color: #fff;
+    color: #00B9EB;
+    background-color: #fff;
 }
 
 .btn-primary:active,
@@ -480,8 +480,4 @@ body {
 }
 .copyright{
     padding-top: 35px;
-}
-
-.title-brand{
-    color:#00B9EB;
 }
