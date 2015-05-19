@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
@@ -37,10 +40,9 @@
 </head>
 
 <body id="page-top">
-
+<!--Navigation-->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
@@ -52,7 +54,6 @@
             <a class="navbar-brand page-scroll title-brand" href="#page-top">JodakWebSolutions.com</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -69,11 +70,10 @@
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
+<!--Header-->
 <header>
     <div class="header-content">
         <div class="header-content-inner">
@@ -84,6 +84,7 @@
     </div>
 </header>
 
+<!--About-->
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
@@ -92,17 +93,19 @@
                 <hr class="light">
                 <p>Jodak builds and designs websites that turn online traffic into customers. We offer a wide
                     range of services that make this possible. Understanding what services you need is not
-                    always straightforward so, whether you come to us or we come to you, we’re happy to sit down, discuss
+                    always straightforward so, whether you come to us or we come to you, we’re happy to sit down,
+                    discuss
                     your objectives and work out what will work best for you.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="services">
+<!--Services-->
+<section id="services" class="bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center wow flipInY" data-wow-delay=".1">
+            <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Process</h2>
                 <hr class="primary">
             </div>
@@ -112,14 +115,16 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box wow bounceInLeft" data-wow-delay=".2s">
-                    <i class="fa fa-4x fa-connectdevelop wow bounceInLeft text-primary" data-wow-delay=".4s"></i>
+                    <i class="fa fa-4x fa-connectdevelop wow bounceInLeft text-primary" data-wow-delay=".2s"></i>
+
                     <h3>Planning & Design</h3>
+
                     <p class="text-muted">We create the blueprint for success, then craft the user experience.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box wow bounceInDown" data-wow-delay=".4s">
-                    <i class="fa fa-4x fa-sitemap wow bounceInDown text-primary" data-wow-delay=".6s"></i>
+                    <i class="fa fa-4x fa-sitemap wow bounceInDown text-primary" data-wow-delay=".4s"></i>
 
                     <h3>Development & Testing</h3>
 
@@ -128,74 +133,90 @@
             </div>
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box wow bounceInRight" data-wow-delay=".6s">
-                    <i class="fa fa-4x fa-rocket wow bounceInRight text-primary" data-wow-delay=".8s"></i>
+                    <i class="fa fa-4x fa-rocket wow bounceInRight text-primary" data-wow-delay=".6s"></i>
 
                     <h3>Deploy & Delight</h3>
 
-                    <p class="text-muted">3..2..1.. Houston, We have lift off! Your website is launched and everyone is amazed.</p>
+                    <p class="text-muted">3..2..1.. Houston, We have lift off! Your website is launched and everyone is
+                        amazed.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!--Portfolio-->
 <section class="no-padding" id="portfolio">
     <div class="container">
         <div class="row no-gutter">
-            <div class="col-xs-12 text-center"><p><h3>Portfolio</h3></p>
-            <hr class="primary">
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+            <div class="col-xs-12 text-center"><p>
 
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                PoshPatio.ca
-                            </div>
-                            <div class="project-name">
-                                Posh Patio
+                <h3>Portfolio</h3></p>
+                <hr class="primary">
+                <div class="col-lg-4 col-sm-6 col-lg-offset-4 wow flipInY" data-wow-delay=".2s">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    PoshPatio.ca
+                                </div>
+                                <div class="project-name">
+                                    Posh Patio
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 </section>
+
+<!--Contact-->
 <section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Let's Talk!</h2>
                 <hr class="primary">
-                <p>We would love to grab a coffee and discuss any idea you have! Reach out and grab our attention below</p>
+                <p>We would love to grab a coffee and discuss any idea you have! Reach out and grab our attention
+                    below</p>
             </div>
-            <div class="col-lg-2 col-lg-offset-2 text-center">
-                <i class="fa fa-twitter-square fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+            <div class="col-lg-2 col-lg-offset-2 text-center wow bounceIn" data-wow-delay=".2s">
+                <i class="fa fa-twitter-square fa-3x"></i>
 
                 <p><a href="https://twitter.com/JodakOfficalm">@JodakOfficial</a></p>
             </div>
-            <div class="col-lg-2 text-center">
-                <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".4s"></i>
+            <div class="col-lg-2 text-center wow bounceIn" data-wow-delay=".4s">
+                <i class="fa fa-instagram fa-3x"></i>
+
                 <p><a href="http://instagram.com">@JodakOfficial</a></p>
             </div>
-            <div class="col-lg-2 text-center">
-                <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".6s"></i>
+            <div class="col-lg-2 text-center wow bounceIn" data-wow-delay=".6s">
+                <i class="fa fa-facebook-square fa-3x"></i>
 
                 <p><a href="https://www.facebook.com/JodakWebSolutions">/JodakWebSolutions</a></p>
             </div>
-            <div class="col-lg-2 text-center">
-                <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".8s"></i>
+            <div class="col-lg-2 text-center wow bounceIn" data-wow-delay=".8s">
+                <i class="fa fa-phone-square fa-3x"></i>
 
                 <p><a>(306) 630-3060</a></p>
             </div>
-            <div class="copyright col-xs-12 text-center">Copyright &copy; Jodak Web Solutions 2015</div>
-            <div class="col-xs-12 text-center"><h6>Version 0.02.2</h6></div>
         </div>
     </div>
 </section>
+
+<!--Footer-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <h5 class="copyright text-center">Copyright &copy; Jodak Web Solutions 2015</h5>
+            <h6 class="text-center">Version 0.02.2</h6>
+        </div>
+    </div>
+</footer>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
