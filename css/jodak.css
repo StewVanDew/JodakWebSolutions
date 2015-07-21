@@ -82,8 +82,8 @@ section {
 }
 
 .bg-off-white {
-    -webkit-box-shadow: inset 0 5px 10px #FFF;
-    box-shadow: inset 0 5px 10px #FFF;
+    /*-webkit-box-shadow: inset 0 5px 10px #FFF;*/
+    /*box-shadow: inset 0 5px 10px #FFF;*/
 
     background-color: #FAFAFA;
     color: inherit;
@@ -348,6 +348,23 @@ img.greyscale {
 
 .portfolio-grid {
     padding: 2px;
+
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.portfolio-grid:hover {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
 }
 
 div.portfolio-grid {
