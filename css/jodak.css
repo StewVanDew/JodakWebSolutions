@@ -11,7 +11,11 @@ html {
 }
 
 a {
-    color: #777;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 html, body {
@@ -76,6 +80,10 @@ section {
     background-color: #FF9933;
 }
 
+.text-white {
+    color: #FFF !important;
+}
+
 .bg-white {
     background-color: #FFF;
     color: inherit;
@@ -91,6 +99,7 @@ section {
 
 /* LINKS */
 .color {
+    color: #777
     transition: color .6s ease-in-out;
     -webkit-transition: color .6s ease-in-out;
     -moz-transition: color .6s ease-in-out;
@@ -171,10 +180,6 @@ section {
     margin: 0 !important;
 }
 
-/*.color {*/
-/*color: #777;*/
-/*}*/
-
 h1.title {
     text-align: center;
     text-transform: uppercase;
@@ -194,6 +199,34 @@ ul.navigation li {
         width: 100px;
         text-align: left;
     }
+}
+
+.full-background {
+    z-index: -999;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    background: url("http://i.imgur.com/7PmGxFA.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.img-shade {
+    position: relative;
+    z-index: -1;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
 }
 
 .intro {
@@ -461,6 +494,40 @@ li.button {
 }
 
 /* FONT AWESOME */
-.fa.fa-md {
+.fa-md {
     font-size: 1.5em;
+}
+
+/* FORM */
+::-webkit-input-placeholder {
+    color: #FF9933;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #FF9933;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #FF9933;
+}
+
+:-ms-input-placeholder {
+    color: #FF9933;
+}
+
+input.jodak-form, textarea.jodak-form {
+    padding: 5px;
+    outline-color: transparent;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #FF9933;
+}
+
+button.jodak-form {
+    margin-left: 15px;
+    padding: 5px 4em;
+    outline-color: transparent;
+    color: #FFF;
+    background-color: #333;
+    border: 0 solid transparent;
 }
