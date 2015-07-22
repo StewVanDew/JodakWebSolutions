@@ -203,7 +203,7 @@ ul.navigation li {
 
 .full-background {
     z-index: -999;
-    opacity: 0.7;
+    opacity: 1;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -224,7 +224,6 @@ ul.navigation li {
 .img-shade {
     position: relative;
     z-index: -1;
-    background-color: #000;
     height: 100%;
     width: 100%;
 }
@@ -499,27 +498,118 @@ li.button {
 }
 
 /* FORM */
-::-webkit-input-placeholder {
-    color: #FF9933;
+::-webkit-input-placeholder.green {
+    color: #0EEA2D;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-    color: #FF9933;
+:-moz-placeholder.green { /* Firefox 18- */
+    color: #0EEA2D;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-    color: #FF9933;
+::-moz-placeholder.green {  /* Firefox 19+ */
+    color: #0EEA2D;
 }
 
-:-ms-input-placeholder {
-    color: #FF9933;
+:-ms-input-placeholder.green {
+    color: #0EEA2D;
 }
 
-input.jodak-form, textarea.jodak-form {
+input.jodak-form.green, textarea.jodak-form.green {
     padding: 5px;
     outline-color: transparent;
     width: 100%;
     background: transparent;
+    border: 1px solid #0EEA2D;
+}
+::-webkit-input-placeholder.yellow {
+    color: #FFF300;
+}
+
+:-moz-placeholder.yellow { /* Firefox 18- */
+    color: #FFF300;
+}
+
+::-moz-placeholder.yellow {  /* Firefox 19+ */
+    color: #FFF300;
+}
+
+:-ms-input-placeholder.yellow {
+    color: #FFF300;
+}
+
+input.jodak-form.yellow, textarea.jodak-form.yellow {
+    padding: 5px;
+    outline-color: transparent;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #FFF300;
+}
+::-webkit-input-placeholder.blue {
+    color: #00B7F2;
+}
+
+:-moz-placeholder.blue { /* Firefox 18- */
+    color: #00B7F2;
+}
+
+::-moz-placeholder.blue {  /* Firefox 19+ */
+    color: #00B7F2;
+}
+
+:-ms-input-placeholder.blue {
+    color: #00B7F2;
+}
+
+input.jodak-form.blue, textarea.jodak-form.blue {
+    padding: 5px;
+    outline-color: transparent;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #00B7F2;
+}
+::-webkit-input-placeholder.pink {
+    color: #FD00FF;
+}
+
+:-moz-placeholder.pink { /* Firefox 18- */
+    color: #FD00FF;
+}
+
+::-moz-placeholder.pink {  /* Firefox 19+ */
+    color: #FD00FF;
+}
+
+:-ms-input-placeholder.pink {
+    color: #FD00FF;
+}
+
+input.jodak-form.pink, textarea.jodak-form.pink {
+    padding: 5px;
+    outline-color: transparent;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #FD00FF;
+}
+::-webkit-input-placeholder.orange {
+    color: #FF9933;
+}
+
+:-moz-placeholder.orange { /* Firefox 18- */
+    color: #FF9933;
+}
+
+::-moz-placeholder.orange {  /* Firefox 19+ */
+    color: #FF9933;
+}
+
+:-ms-input-placeholder.orange {
+    color: #FF9933;
+}
+
+input.jodak-form.orange, textarea.jodak-form.orange {
+    padding: 5px;
+    outline-color: transparent;
+    width: 100%;
     border: 1px solid #FF9933;
 }
 
