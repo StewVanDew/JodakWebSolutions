@@ -28,36 +28,38 @@
 <div class="container-fluid body bg-white">
     <div class="container">
         <div class="row">
-            <h1 class="title">Contact</h1>
-            <hr class="faded color">
+            <section>
+                <h1 class="title">Contact</h1>
+                <hr class="faded color">
+            </section>
+
 
             <!-- LINKS -->
-            <div class="col-sm-6">
-                <p>Contact Info</p>
-
-                <ul class="list-unstyled fa-md" style="width: auto">
-                    <li>
-                        <a class="color" href="tel://123-456-7890"><i class="fa fa-phone-square"></i> 123-456-7890</a>
-                    </li>
-                    <li>
-                        <a class="color" href="mailto:abc@xyz.com"><i class="fa fa-envelope-square"></i> abc@xyz.com</a>
-                    </li>
-                    <li>
-                        <a class="color" href="index.html"><i class="fa fa-external-link-square"></i>
-                            JodakWebSolutions.com</a>
-                    </li>
-
-                </ul>
+            <div class="col-sm-6" id="contact">
+                <table class="fa-md" style="height: 100%">
+                    <tr>
+                        <th style="font-weight: lighter;">Contact Info</th>
+                    </tr>
+                    <tr>
+                       <td><a class="color" href="tel://123-456-7890"><i class="fa fa-phone-square"></i> 123-456-7890</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="color" href="mailto:Josh@JodakWebSolutions.com"><i class="fa fa-envelope-square"></i> Josh@JodakWebSolutions.com</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="color" href="index.html"><i class="fa fa-external-link-square"></i> JodakWebSolutions.com</a></td>
+                    </tr>
+                </table>
             </div>
 
             <!-- CONTACT FORM -->
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="form">
                 <form>
                     <div class="col-sm-6"><input class="jodak-form color" placeholder="First Name"></div>
                     <div class="col-sm-6"><input class="jodak-form color" placeholder="Email"></div>
                     <div class="col-xs-12"><textarea class="jodak-form color" style="overflow: auto; resize: none;"
                                                      placeholder="Your Message..." rows="10"></textarea></div>
-                    <button class="jodak-form color">Send</button>
+                    <button class="jodak-form color" type="submit">Send</button>
                 </form>
 
             </div>
@@ -79,6 +81,10 @@
 <script src="js/jquery-ui.js"></script>
 <script src="js/master.js"></script>
 <script src="js/lorem-ipsum.js"></script>
+
+<script>
+    $('#contact').height( $('#form').height() );
+</script>
 
 </body>
 </html>
